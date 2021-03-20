@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 item = "3080"
 firm = "asus"
 
-print(item, "stock checker")
+print(item, "stock checker!")
 
 
 def get_page_html(url):
