@@ -34,7 +34,7 @@ def check_inventory():
         print("In stock in the following links:")
         print(stock_list)
     else:
-        print("Out of stock")
+        print("Out of stock") 
 
 
 check_inventory()
