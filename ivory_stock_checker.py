@@ -32,7 +32,8 @@ def check_inventory():
     stock_list = check_item_in_stock(page_html)
     if len(stock_list) != 0:
         print("In stock in the following links:")
-        print(stock_list)
+        for link in stock_list:
+            print(link)
     else:
         print("Out of stock") 
 
